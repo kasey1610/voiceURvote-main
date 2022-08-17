@@ -23,6 +23,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gv0-O9-qWH">
                                 <rect key="frame" x="32" y="446" width="350" height="64"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <accessibility key="accessibilityConfiguration" identifier="registerNowButton"/>
                                 <color key="tintColor" red="0.73333334920000004" green="0.14901961389999999" blue="0.13725490870000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="gray">
@@ -104,10 +105,10 @@
             </objects>
             <point key="canvasLocation" x="1382.608695652174" y="116.51785714285714"/>
         </scene>
-        <!--View Controller-->
+        <!--How To Vote View Controller-->
         <scene sceneID="fRb-GG-l2o">
             <objects>
-                <viewController id="lqj-kL-kAI" sceneMemberID="viewController">
+                <viewController id="lqj-kL-kAI" customClass="HowToVoteViewController" customModule="voiceURvote" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="In5-6V-gGp">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -158,10 +159,10 @@
             </objects>
             <point key="canvasLocation" x="2286.9565217391305" y="116.51785714285714"/>
         </scene>
-        <!--View Controller-->
+        <!--Upcoming Elections View Controller-->
         <scene sceneID="pIC-Hw-dbz">
             <objects>
-                <viewController id="4qg-8b-0fD" sceneMemberID="viewController">
+                <viewController id="4qg-8b-0fD" customClass="UpcomingElectionsViewController" customModule="voiceURvote" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ibi-fF-kep">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -212,10 +213,10 @@
             </objects>
             <point key="canvasLocation" x="2286.9565217391305" y="837.72321428571422"/>
         </scene>
-        <!--View Controller-->
+        <!--Register Now View Controller-->
         <scene sceneID="ih3-ha-7Yw">
             <objects>
-                <viewController id="FGe-vZ-gZg" sceneMemberID="viewController">
+                <viewController id="FGe-vZ-gZg" customClass="RegisterNowViewController" customModule="voiceURvote" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eb4-LO-EiF">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -256,6 +257,15 @@
                                 <nil key="highlightedColor"/>
                                 <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </label>
+                            <wkWebView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C5g-LY-Dfe">
+                                <rect key="frame" x="20" y="125" width="374" height="683"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="JRG-z0-UCT"/>
                         <color key="backgroundColor" red="0.81960785390000002" green="0.7019608021" blue="0.71372550729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>

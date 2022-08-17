@@ -14,6 +14,9 @@
 		157E1F6F28AD2D9C002D3E30 /* voiceURvote.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 157E1F6D28AD2D9C002D3E30 /* voiceURvote.xcdatamodeld */; };
 		157E1F7128AD2DDD002D3E30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 157E1F7028AD2DDD002D3E30 /* Assets.xcassets */; };
 		157E1F7428AD2DDD002D3E30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 157E1F7228AD2DDD002D3E30 /* LaunchScreen.storyboard */; };
+		BA8311D028AD7F5000B74B82 /* RegisterNowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8311CF28AD7F5000B74B82 /* RegisterNowViewController.swift */; };
+		BA8311D228AD7F6A00B74B82 /* HowToVoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8311D128AD7F6A00B74B82 /* HowToVoteViewController.swift */; };
+		BA8311D428AD7F8100B74B82 /* UpcomingElectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8311D328AD7F8100B74B82 /* UpcomingElectionsViewController.swift */; };
 		BAD22D1028AD3B0E00F6CD68 /* FirstLaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD22D0F28AD3B0E00F6CD68 /* FirstLaunchViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +30,9 @@
 		157E1F7028AD2DDD002D3E30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		157E1F7328AD2DDD002D3E30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		157E1F7528AD2DDD002D3E30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA8311CF28AD7F5000B74B82 /* RegisterNowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterNowViewController.swift; sourceTree = "<group>"; };
+		BA8311D128AD7F6A00B74B82 /* HowToVoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToVoteViewController.swift; sourceTree = "<group>"; };
+		BA8311D328AD7F8100B74B82 /* UpcomingElectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingElectionsViewController.swift; sourceTree = "<group>"; };
 		BAD22D0F28AD3B0E00F6CD68 /* FirstLaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLaunchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,6 +71,9 @@
 				157E1F6828AD2D9B002D3E30 /* ViewController.swift */,
 				BAD22D0F28AD3B0E00F6CD68 /* FirstLaunchViewController.swift */,
 				157E1F6A28AD2D9C002D3E30 /* Main.storyboard */,
+				BA8311D328AD7F8100B74B82 /* UpcomingElectionsViewController.swift */,
+				BA8311D128AD7F6A00B74B82 /* HowToVoteViewController.swift */,
+				BA8311CF28AD7F5000B74B82 /* RegisterNowViewController.swift */,
 				157E1F7028AD2DDD002D3E30 /* Assets.xcassets */,
 				157E1F7228AD2DDD002D3E30 /* LaunchScreen.storyboard */,
 				157E1F7528AD2DDD002D3E30 /* Info.plist */,
@@ -145,9 +154,12 @@
 			files = (
 				157E1F6928AD2D9B002D3E30 /* ViewController.swift in Sources */,
 				BAD22D1028AD3B0E00F6CD68 /* FirstLaunchViewController.swift in Sources */,
+				BA8311D228AD7F6A00B74B82 /* HowToVoteViewController.swift in Sources */,
 				157E1F6528AD2D9B002D3E30 /* AppDelegate.swift in Sources */,
 				157E1F6728AD2D9B002D3E30 /* SceneDelegate.swift in Sources */,
+				BA8311D028AD7F5000B74B82 /* RegisterNowViewController.swift in Sources */,
 				157E1F6F28AD2D9C002D3E30 /* voiceURvote.xcdatamodeld in Sources */,
+				BA8311D428AD7F8100B74B82 /* UpcomingElectionsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
