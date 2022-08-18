@@ -33,20 +33,14 @@ class InPersonVotingViewController: UIViewController {
 
     @IBAction func inPersonInfoButtonTapped(_ sender: Any) {
         
-//
-//    inPersonVotingLabel.minimumScaleFactor = 0.5
                 
         
-        inPersonVotingLabel.frame = CGRect(x: 21,y: 229,width: 374,height: 592)
+        inPersonVotingLabel.frame = CGRect(x: 21,y: 174,width: 374,height: 647)
         inPersonVotingLabel.numberOfLines = 0
-//        inPersonVotingLabel.adjustsFontSizeToFitWidth = true
+
         inPersonVotingLabel.sizeToFit()
+      
         
-//        CGRect myFrame = inPersonVotingLabel.frame;
-//            // Resize the frame's width to 280 (320 - margins)
-//            // width could also be myOriginalLabelFrame.size.width
-//            myFrame = CGRectMake(myFrame.origin.x, myFrame.origin.y, 280, myFrame.size.height);
-//        inPersonVotingLabel.frame = myFrame
     
     if yourStateIPLabel.text == "Alabama" {
 
