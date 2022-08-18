@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="l8m-wQ-O2T">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="l8m-wQ-O2T">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -26,17 +25,6 @@
                                 <accessibility key="accessibilityConfiguration" identifier="registerNowButton"/>
                                 <color key="tintColor" red="0.73333334920000004" green="0.14901961389999999" blue="0.13725490870000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Register Now">
-                                            <attributes>
-                                                <font key="NSFont" size="36" name="Avenir-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseBackgroundColor" red="0.81960785390000002" green="0.7019608021" blue="0.71372550729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="tB2-M9-xgw" kind="show" id="hQU-2W-69f"/>
                                 </connections>
@@ -46,17 +34,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.73333334920000004" green="0.14901961389999999" blue="0.13725490870000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="How To Vote">
-                                            <attributes>
-                                                <font key="NSFont" size="36" name="Avenir-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseBackgroundColor" red="0.81960785390000002" green="0.7019608021" blue="0.71372550729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="lqj-kL-kAI" kind="show" id="8nN-QT-nDo"/>
                                 </connections>
@@ -66,17 +43,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.73333334920000004" green="0.14901961389999999" blue="0.13725490870000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Upcoming Elections">
-                                            <attributes>
-                                                <font key="NSFont" size="36" name="Avenir-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseBackgroundColor" red="0.81960785390000002" green="0.7019608021" blue="0.71372550729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="4qg-8b-0fD" kind="show" id="QQ3-zI-CF9"/>
                                 </connections>
@@ -86,19 +52,8 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.73333334920000004" green="0.14901961389999999" blue="0.13725490870000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Voter Rights">
-                                            <attributes>
-                                                <font key="NSFont" size="36" name="Avenir-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseBackgroundColor" red="0.81960785390000002" green="0.7019608021" blue="0.71372550729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
                                 <connections>
-                                    <segue destination="Sf0-za-D2G" kind="show" id="b5D-9h-zE9"/>
+                                    <segue destination="NGE-Cx-x3n" kind="show" id="Mw9-Mf-Vtt"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -124,17 +79,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.73333334920000004" green="0.14901961389999999" blue="0.13725490870000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="&lt; back to home page">
-                                            <attributes>
-                                                <font key="NSFont" size="20" name="Avenir-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="l8m-wQ-O2T" kind="show" animates="NO" id="yFQ-6V-PlT"/>
                                 </connections>
@@ -145,17 +89,6 @@
                                 <accessibility key="accessibilityConfiguration" identifier="registerNowButton"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="In-Person">
-                                            <attributes>
-                                                <font key="NSFont" size="36" name="Avenir-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseBackgroundColor" red="0.33725491169999999" green="0.34901961679999999" blue="0.34901961679999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="hkV-sX-MMR" kind="show" id="oE4-5j-qGs"/>
                                 </connections>
@@ -166,17 +99,6 @@
                                 <accessibility key="accessibilityConfiguration" identifier="registerNowButton"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Absentee">
-                                            <attributes>
-                                                <font key="NSFont" size="36" name="Avenir-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseBackgroundColor" red="0.33725491169999999" green="0.34901961679999999" blue="0.34901961679999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="LhR-p0-sgN" kind="show" id="fAe-Yd-erh"/>
                                 </connections>
@@ -220,17 +142,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.73333334920000004" green="0.14901961389999999" blue="0.13725490870000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="&lt; back">
-                                            <attributes>
-                                                <font key="NSFont" size="20" name="Avenir-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="lqj-kL-kAI" kind="show" animates="NO" id="4dz-6a-P4q"/>
                                 </connections>
@@ -240,17 +151,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.73333334920000004" green="0.14901961389999999" blue="0.13725490870000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="show">
-                                            <attributes>
-                                                <font key="NSFont" size="20" name="Avenir-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
                                 <connections>
                                     <action selector="inPersonInfoButtonTapped:" destination="hkV-sX-MMR" eventType="touchUpInside" id="fjf-Lr-WF4"/>
                                 </connections>
@@ -298,53 +198,6 @@
             </objects>
             <point key="canvasLocation" x="3363.7681159420295" y="-23.4375"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="yo8-wK-TYk">
-            <objects>
-                <viewController id="Sf0-za-D2G" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="geC-KP-1hB">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="npA-OJ-kLV">
-                                <rect key="frame" x="20" y="20" width="222" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" red="0.73333334920000004" green="0.14901961389999999" blue="0.13725490870000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="&lt; back to home page">
-                                            <attributes>
-                                                <font key="NSFont" size="20" name="Avenir-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
-                                <connections>
-                                    <segue destination="l8m-wQ-O2T" kind="show" animates="NO" id="4kn-UL-ZDY"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Know Your Rights" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DUi-al-Gea">
-                                <rect key="frame" x="22" y="58" width="372" height="59"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="40"/>
-                                <color key="textColor" red="0.33725491169999999" green="0.34901961679999999" blue="0.34901961679999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <nil key="highlightedColor"/>
-                                <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="tcM-z4-XXC"/>
-                        <color key="backgroundColor" red="0.81960785390000002" green="0.7019608021" blue="0.71372550729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="3cS-n0-m7g"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ewG-cv-Ave" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1383" y="838"/>
-        </scene>
         <!--Upcoming Elections View Controller-->
         <scene sceneID="pIC-Hw-dbz">
             <objects>
@@ -365,17 +218,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.73333334920000004" green="0.14901961389999999" blue="0.13725490870000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="&lt; back to home page">
-                                            <attributes>
-                                                <font key="NSFont" size="20" name="Avenir-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="l8m-wQ-O2T" kind="show" animates="NO" id="b2C-uN-rZp"/>
                                 </connections>
@@ -412,17 +254,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.73333334920000004" green="0.14901961389999999" blue="0.13725490870000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="&lt; back">
-                                            <attributes>
-                                                <font key="NSFont" size="20" name="Avenir-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="lqj-kL-kAI" kind="show" animates="NO" id="lan-No-FxZ"/>
                                 </connections>
@@ -459,17 +290,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.73333334920000004" green="0.14901961389999999" blue="0.13725490870000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="&lt; back to home page">
-                                            <attributes>
-                                                <font key="NSFont" size="20" name="Avenir-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="l8m-wQ-O2T" kind="show" animates="NO" id="EDv-6P-BtA"/>
                                 </connections>
@@ -479,17 +299,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.73333334920000004" green="0.14901961389999999" blue="0.13725490870000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="show">
-                                            <attributes>
-                                                <font key="NSFont" size="20" name="Avenir-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseBackgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </buttonConfiguration>
                                 <connections>
                                     <action selector="showButtonTapped:" destination="tB2-M9-xgw" eventType="touchUpInside" id="i6b-9Q-KdW"/>
                                 </connections>
@@ -526,19 +335,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.73333334920000004" green="0.14901961389999999" blue="0.13725490870000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="&gt;">
-                                            <attributes>
-                                                <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <font key="NSFont" size="34" name="Avenir-Heavy"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.73333334920000004" green="0.14901961389999999" blue="0.13725490870000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="FGe-vZ-gZg" kind="show" id="t0E-FK-5q6"/>
                                 </connections>
@@ -657,17 +453,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.73333334920000004" green="0.14901961389999999" blue="0.13725490870000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="gray">
-                                    <attributedString key="attributedTitle">
-                                        <fragment content="Complete">
-                                            <attributes>
-                                                <font key="NSFont" size="36" name="Avenir-Medium"/>
-                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                            </attributes>
-                                        </fragment>
-                                    </attributedString>
-                                    <color key="baseBackgroundColor" red="0.81960785390000002" green="0.7019608021" blue="0.71372550729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
                                 <connections>
                                     <segue destination="l8m-wQ-O2T" kind="show" id="wNN-op-W4P"/>
                                 </connections>
@@ -700,10 +485,188 @@
             </objects>
             <point key="canvasLocation" x="524.63768115942037" y="116.51785714285714"/>
         </scene>
+        <!--Know Your Rights View Controller-->
+        <scene sceneID="p13-sV-FQJ">
+            <objects>
+                <viewController id="NGE-Cx-x3n" customClass="KnowYourRightsViewController" customModule="voiceURvote" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hRb-sk-8sa">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Scu-aW-ShR">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AU6-ss-RrR">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Know Your Rights" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pLd-MJ-WMf">
+                                                <rect key="frame" x="8" y="57" width="372" height="59"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="40"/>
+                                                <color key="textColor" red="0.33725491169999999" green="0.34901961679999999" blue="0.34901961679999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <nil key="highlightedColor"/>
+                                                <color key="shadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QjL-fh-b7y">
+                                                <rect key="frame" x="8" y="19" width="222" height="30"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" red="0.73333334920000004" green="0.14901961389999999" blue="0.13725490870000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                <state key="normal" title="Button"/>
+                                                <connections>
+                                                    <segue destination="l8m-wQ-O2T" kind="show" id="fUl-eu-UAQ"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What to report" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4FZ-M3-Bbe">
+                                                <rect key="frame" x="8" y="832" width="135" height="47"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="• Confirm with your state's voter requirements that you have what you need to vote before you leave the house!" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ARc-WE-7fU">
+                                                <rect key="frame" x="8" y="199" width="313" height="82"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v2L-HY-HBe">
+                                                <rect key="frame" x="8" y="289" width="313" height="96"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">• Make sure to bring your phone so you have a way to contact the election protection hotline in case you witness any crime (intimidation, fraud, etc...)</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="thz-0m-mob">
+                                                <rect key="frame" x="8" y="393" width="313" height="96"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">• Even if the lines are very long and the polls close, you will still be allowed to cast your ballet. Keep you're space in line beacuse if you move, that right is no longer guarenteed.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3cB-Ab-eau">
+                                                <rect key="frame" x="8" y="497" width="313" height="96"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">• It is super common for states to cast provisional ballots at the wrong polling location. If you can, try to vote on a regular ballot and avoid the risk that comes with provisionals.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fUo-YQ-ML5">
+                                                <rect key="frame" x="8" y="601" width="313" height="96"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">• Do your best to fix whatever problem you might run in to at the polling site. You're more likely to solve the issue in real time than you are if you wait.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="• Most poll workers are just trying to do their best. Be nice :)" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bfG-QL-gCn">
+                                                <rect key="frame" x="8" y="705" width="313" height="67"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Intimidation" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UMP-eQ-CWZ">
+                                                <rect key="frame" x="18" y="887" width="89" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Msc-9U-eyi">
+                                                <rect key="frame" x="18" y="906" width="285" height="118"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">• May include physical barriers preventing you from reaching the voting entrence, cursing at prospective voters, watching someone cast their private ballot, questioning voters about private information, unnecessarily asking for identification.</string>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Coercion" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kr4-CS-Hr1">
+                                                <rect key="frame" x="18" y="1041" width="69" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Threats" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Pw-d5-icV">
+                                                <rect key="frame" x="18" y="1143" width="58" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="• May include offering bribes, spreading incorrect information concerning the election, impersonating poll workers" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k7I-PG-Xvx">
+                                                <rect key="frame" x="18" y="1060" width="285" height="64"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="• May include harmful statements directed towards you or your personal life." textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i3b-Ue-B8c">
+                                                <rect key="frame" x="18" y="1165" width="285" height="52"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="If you experience any of the above, do not hesitate to report it to Election Protection: 866-687-8683" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DEU-2I-Q0v">
+                                                <rect key="frame" x="66" y="1300" width="257" height="128"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Basic Advice" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ehS-nV-bsD">
+                                                <rect key="frame" x="8" y="144" width="135" height="47"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1500" id="8vC-ZN-FtD"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="1500" id="CEl-jC-paZ"/>
+                                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="1500" id="Pmy-D6-fvV"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="AU6-ss-RrR" firstAttribute="leading" secondItem="Scu-aW-ShR" secondAttribute="leading" id="JQv-kD-7aW"/>
+                                    <constraint firstItem="AU6-ss-RrR" firstAttribute="top" secondItem="Scu-aW-ShR" secondAttribute="top" id="VsY-Dd-CkU"/>
+                                    <constraint firstAttribute="trailing" secondItem="AU6-ss-RrR" secondAttribute="trailing" id="erx-qO-K1l"/>
+                                    <constraint firstAttribute="bottom" secondItem="AU6-ss-RrR" secondAttribute="bottom" id="oZV-19-Gja"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="avc-LN-r7R"/>
+                        <color key="backgroundColor" red="0.81960785390000002" green="0.7019608021" blue="0.71372550729999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Scu-aW-ShR" secondAttribute="bottom" id="IAJ-n1-VCh"/>
+                            <constraint firstItem="Scu-aW-ShR" firstAttribute="top" secondItem="avc-LN-r7R" secondAttribute="top" id="OdE-0N-W3D"/>
+                            <constraint firstItem="Scu-aW-ShR" firstAttribute="leading" secondItem="hRb-sk-8sa" secondAttribute="leading" id="OmY-hH-eWg"/>
+                            <constraint firstItem="Scu-aW-ShR" firstAttribute="leading" secondItem="avc-LN-r7R" secondAttribute="leading" id="QGJ-jT-8Pt"/>
+                            <constraint firstItem="Scu-aW-ShR" firstAttribute="trailing" secondItem="avc-LN-r7R" secondAttribute="trailing" id="XdF-U4-tZQ"/>
+                            <constraint firstAttribute="bottom" secondItem="Scu-aW-ShR" secondAttribute="bottom" id="so0-pJ-Cdl"/>
+                            <constraint firstAttribute="trailing" secondItem="Scu-aW-ShR" secondAttribute="trailing" id="xJi-Gi-hSA"/>
+                            <constraint firstItem="Scu-aW-ShR" firstAttribute="top" secondItem="avc-LN-r7R" secondAttribute="top" id="z5C-fi-iIX"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="sQC-Kg-E9J"/>
+                    <size key="freeformSize" width="414" height="896"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="V75-Si-x2d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1055" y="905"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="4dz-6a-P4q"/>
-        <segue reference="EDv-6P-BtA"/>
+        <segue reference="8nN-QT-nDo"/>
+        <segue reference="fUl-eu-UAQ"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="VOICE YOUR VOTE" width="250" height="250"/>
