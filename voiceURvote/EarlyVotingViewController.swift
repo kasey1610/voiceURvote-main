@@ -15,18 +15,25 @@ class EarlyVotingViewController: UIViewController {
     
     @IBOutlet weak var earlyVotingLabel: UILabel!
     
+    var pickerView = UIPickerView()
+
     let earlyVoting = [
-    "Alabama does not have early voting",
-    "• Early voting starts 29 days before Election Day. Varies by county. Voters should contact their county elections office to see if they offer early voting. \n• Early voting ends the day before Election Day. Varies by county. Voters should contact their county elections office to see if they offer early voting.",
-    "• Early voting starts 10 days before the General Election. \n• Early voting ends 2 days before the General Election.",
-    "• Early voting starts 10 days before the General Election. \n• Early voting ends 2 days before the General Election.",
-    "• For primary elections, early voting starts the Thursday before Election Day. For general elections, Wednesday before Election Day. \n• Early voting ends at 2pm the Saturday before Election Day."]
+        "Alabama does not have early voting",
+        "• Early voting starts 29 days before Election Day. Varies by county. Voters should contact their county elections office to see if they offer early voting. \n• Early voting ends the day before Election Day. Varies by county. Voters should contact their county elections office to see if they offer early voting.",
+        "• Early voting starts 10 days before the General Election. \n• Early voting ends 2 days before the General Election.",
+        "• Early voting starts 10 days before the General Election. \n• Early voting ends 2 days before the General Election.",
+        "• For primary elections, early voting starts the Thursday before Election Day. For general elections, Wednesday before Election Day. \n• Early voting ends at 2pm the Saturday before Election Day."]
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        pickerView.delegate = self
+        pickerView.dataSource = self
+
+        earlyStateLabel.inputView = pickerView
+        
     }
     
     @IBAction func showEarlyVotingButton(_ sender: Any) {
@@ -72,3 +79,32 @@ class EarlyVotingViewController: UIViewController {
     
 
 }
+
+
+
+
+extension EarlyVotingViewController: UIPickerViewDelegate, UIPickerViewDataSource {
+    
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 1
+    }
+
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return states.count
+    }
+
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return states[row]
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        earlyStateLabel.text = states[row]
+        earlyStateLabel.resignFirstResponder()
+    }
+
+}
+
+
+
+
+

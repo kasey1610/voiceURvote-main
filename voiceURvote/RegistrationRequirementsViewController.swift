@@ -13,6 +13,8 @@ class RegistrationRequirementsViewController: UIViewController {
 
     @IBOutlet weak var requirementsLabel: UILabel!
     
+    var pickerView = UIPickerView()
+    
     let requirements = [
         "• Be a citizen of the United States; \n• Be a resident of Alabama and your county at the time of registration; \n• Be 18 years old on or before the date of the election; \n• Not have been barred from voting because of a disqualifying felony conviction; \n• Not currently be declared mentally incompetent through a competency hearing; \n• Swear or affirm to 'support and defend the Constitution of the US and the State of Alabama and further disavow any belief or affiliation with any group which advocates the overthrow of the governments of the US or the State of Alabama by unlawful means and that the information contained herein is true, so help me God.'",
         "• Be a citizen of the United States; \n• Be at least 18 years old within 90 days of completing your registration; \n• Be a resident of Alaska; \n• Not be a convicted of certain felonies (unless unconditionally discharged from incarceration, probation and/or parole); \n• Not be registered to vote in another state.",
@@ -75,7 +77,11 @@ class RegistrationRequirementsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-       
+        
+        pickerView.delegate = self
+        pickerView.dataSource = self
+
+        yourStateLabel.inputView = pickerView
 
         // Do any additional setup after loading the view.
     }
@@ -298,3 +304,26 @@ class RegistrationRequirementsViewController: UIViewController {
     
     
 }
+
+
+extension RegistrationRequirementsViewController: UIPickerViewDelegate, UIPickerViewDataSource {
+    
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 1
+    }
+
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return states.count
+    }
+
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return states[row]
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        yourStateLabel.text = states[row]
+        yourStateLabel.resignFirstResponder()
+    }
+
+}
+

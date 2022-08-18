@@ -13,6 +13,8 @@ class InPersonVotingViewController: UIViewController {
     
     @IBOutlet weak var inPersonVotingLabel: UILabel!
     
+    var pickerView = UIPickerView()
+    
     let inPersonVotingProcedures = [
         "• Must be registered 15 days prior to Election Day. \n• Must show photo identification at the polls to vote. \n• Accepted forms of identification: Valid Driver's License (not expired or has been expired less than 60 days); Alabama Law Enforcement Agency Digital Driver's License; Valid Non-driver ID (not expired or has been expired less than 60 days); Alabama Law Enforcement Agency Digital Non-driver ID; Valid Alabama Photo Voter ID; Valid State Issued ID (Alabama or any other state), such as: a Valid AL Department of Corrections Release- Temporary ID (Photo Required), a Valid AL Movement/Booking Sheet from Prison/Jail System (Photo Required), or a Valid Pistol Permit (Photo Required); Valid Federal Issued ID; Valid US Passport; Valid Employee ID from Federal Government, State of Alabama, County Government, Municipality, Board, Authority, or other entity of Alabama; Valid student or employee ID from a college or university in the State of Alabama (including postgraduate technical or professional schools); Valid Military ID; Valid Tribal ID.",
         "• Must be registered 15 days prior to Election Day. \n• If you're not voting for the first time in California, you don't need to show ID to vote. \n• If you're a first-time voter, you are voting in a federal election, you registered by mail, and didn't include your driver's license or California ID number or the last 4 digits of your Social Security number on your registration, you may be asked to provide ID if you vote in person. \n• Acceptable forms of ID include a current and valid photo ID that includes your name and photograph. Examples: Driver's license or ID card of any state, Passport, Employee ID card, ID card provided by a commercial establishment, Credit or debit card, Military ID card, Student ID card, Health club ID card, Insurance plan ID card, Public housing ID card.",
@@ -26,7 +28,10 @@ class InPersonVotingViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        pickerView.delegate = self
+        pickerView.dataSource = self
 
+        yourStateIPLabel.inputView = pickerView
 
     }
     
@@ -76,3 +81,26 @@ class InPersonVotingViewController: UIViewController {
     
 
 }
+
+
+extension InPersonVotingViewController: UIPickerViewDelegate, UIPickerViewDataSource {
+    
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 1
+    }
+
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return states.count
+    }
+
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        return states[row]
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+        yourStateIPLabel.text = states[row]
+        yourStateIPLabel.resignFirstResponder()
+    }
+
+}
+
