@@ -17,6 +17,7 @@
 		BA8311D028AD7F5000B74B82 /* RegisterNowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8311CF28AD7F5000B74B82 /* RegisterNowViewController.swift */; };
 		BA8311D228AD7F6A00B74B82 /* HowToVoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8311D128AD7F6A00B74B82 /* HowToVoteViewController.swift */; };
 		BA8311D428AD7F8100B74B82 /* UpcomingElectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8311D328AD7F8100B74B82 /* UpcomingElectionsViewController.swift */; };
+		BA8311D628ADCFDB00B74B82 /* RegistrationRequirementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8311D528ADCFDB00B74B82 /* RegistrationRequirementsViewController.swift */; };
 		BAD22D1028AD3B0E00F6CD68 /* FirstLaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD22D0F28AD3B0E00F6CD68 /* FirstLaunchViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		BA8311CF28AD7F5000B74B82 /* RegisterNowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterNowViewController.swift; sourceTree = "<group>"; };
 		BA8311D128AD7F6A00B74B82 /* HowToVoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToVoteViewController.swift; sourceTree = "<group>"; };
 		BA8311D328AD7F8100B74B82 /* UpcomingElectionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingElectionsViewController.swift; sourceTree = "<group>"; };
+		BA8311D528ADCFDB00B74B82 /* RegistrationRequirementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationRequirementsViewController.swift; sourceTree = "<group>"; };
 		BAD22D0F28AD3B0E00F6CD68 /* FirstLaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLaunchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,6 +73,7 @@
 				157E1F6828AD2D9B002D3E30 /* ViewController.swift */,
 				BAD22D0F28AD3B0E00F6CD68 /* FirstLaunchViewController.swift */,
 				157E1F6A28AD2D9C002D3E30 /* Main.storyboard */,
+				BA8311D528ADCFDB00B74B82 /* RegistrationRequirementsViewController.swift */,
 				BA8311D328AD7F8100B74B82 /* UpcomingElectionsViewController.swift */,
 				BA8311D128AD7F6A00B74B82 /* HowToVoteViewController.swift */,
 				BA8311CF28AD7F5000B74B82 /* RegisterNowViewController.swift */,
@@ -157,6 +160,7 @@
 				BA8311D228AD7F6A00B74B82 /* HowToVoteViewController.swift in Sources */,
 				157E1F6528AD2D9B002D3E30 /* AppDelegate.swift in Sources */,
 				157E1F6728AD2D9B002D3E30 /* SceneDelegate.swift in Sources */,
+				BA8311D628ADCFDB00B74B82 /* RegistrationRequirementsViewController.swift in Sources */,
 				BA8311D028AD7F5000B74B82 /* RegisterNowViewController.swift in Sources */,
 				157E1F6F28AD2D9C002D3E30 /* voiceURvote.xcdatamodeld in Sources */,
 				BA8311D428AD7F8100B74B82 /* UpcomingElectionsViewController.swift in Sources */,
