@@ -21,6 +21,7 @@
 		BA8311D628ADCFDB00B74B82 /* RegistrationRequirementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8311D528ADCFDB00B74B82 /* RegistrationRequirementsViewController.swift */; };
 		BACF96DC28AE88B10056617F /* InPersonVotingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACF96DB28AE88B10056617F /* InPersonVotingViewController.swift */; };
 		BACF96DE28AE88B90056617F /* AbsenteeVotingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACF96DD28AE88B90056617F /* AbsenteeVotingViewController.swift */; };
+		BACF96E028AF00D60056617F /* EarlyVotingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BACF96DF28AF00D60056617F /* EarlyVotingViewController.swift */; };
 		BAD22D1028AD3B0E00F6CD68 /* FirstLaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD22D0F28AD3B0E00F6CD68 /* FirstLaunchViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		BA8311D528ADCFDB00B74B82 /* RegistrationRequirementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationRequirementsViewController.swift; sourceTree = "<group>"; };
 		BACF96DB28AE88B10056617F /* InPersonVotingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InPersonVotingViewController.swift; sourceTree = "<group>"; };
 		BACF96DD28AE88B90056617F /* AbsenteeVotingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbsenteeVotingViewController.swift; sourceTree = "<group>"; };
+		BACF96DF28AF00D60056617F /* EarlyVotingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarlyVotingViewController.swift; sourceTree = "<group>"; };
 		BAD22D0F28AD3B0E00F6CD68 /* FirstLaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLaunchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -79,6 +81,7 @@
 				157E1F6828AD2D9B002D3E30 /* ViewController.swift */,
 				BAD22D0F28AD3B0E00F6CD68 /* FirstLaunchViewController.swift */,
 				157E1F6A28AD2D9C002D3E30 /* Main.storyboard */,
+				BACF96DF28AF00D60056617F /* EarlyVotingViewController.swift */,
 				15D6918828AEA6F50083AC6E /* KnowYourRightsViewController.swift */,
 				BACF96DB28AE88B10056617F /* InPersonVotingViewController.swift */,
 				BACF96DD28AE88B90056617F /* AbsenteeVotingViewController.swift */,
@@ -169,6 +172,7 @@
 				BAD22D1028AD3B0E00F6CD68 /* FirstLaunchViewController.swift in Sources */,
 				BACF96DE28AE88B90056617F /* AbsenteeVotingViewController.swift in Sources */,
 				BA8311D228AD7F6A00B74B82 /* HowToVoteViewController.swift in Sources */,
+				BACF96E028AF00D60056617F /* EarlyVotingViewController.swift in Sources */,
 				157E1F6528AD2D9B002D3E30 /* AppDelegate.swift in Sources */,
 				157E1F6728AD2D9B002D3E30 /* SceneDelegate.swift in Sources */,
 				BA8311D628ADCFDB00B74B82 /* RegistrationRequirementsViewController.swift in Sources */,
