@@ -12,7 +12,6 @@ let states = ["Alabama", "Alaska", "Arizona", "Arkansas", "California", "Colorad
 class FirstLaunchViewController: UIViewController {
     
     
-
     @IBOutlet weak var stateTextField: UITextField!
     
     
