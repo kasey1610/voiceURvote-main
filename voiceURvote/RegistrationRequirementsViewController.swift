@@ -82,6 +82,10 @@ class RegistrationRequirementsViewController: UIViewController {
     
     @IBAction func showButtonTapped(_ sender: Any) {
             
+        requirementsLabel.adjustsFontSizeToFitWidth = true
+        requirementsLabel.minimumScaleFactor = 0.5
+
+        
         if yourStateLabel.text == "Alabama" {
 
                 requirementsLabel.text = requirements[0]
