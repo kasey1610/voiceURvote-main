@@ -14,7 +14,7 @@ class AbsenteeVotingViewController: UIViewController {
     
     @IBOutlet weak var absenteeVotingLabel: UILabel!
     
-    var pickerView = UIPickerView()
+//    var pickerView = UIPickerView()
     
     let absenteeVoting = [
         "• You may vote by absentee ballot in Alabama if: you will be absent from the county on Election Day, you are ill or have a physical disability that prevents a trip to the polling place, you are a registered Alabama voter who is temporarily living outside the county (such as a member of the armed forces, a voter employed outside of the United States, a college student, or a spouse or child of such a person), you are an appointed election officer or poll watcher at a polling place other than your regular polling place, you work a required shift - 10 hours or more - that coincides with polling hours, you are a caregiver for a family member who is confined to the home, you are incarcerated but otherwise eligible to vote. \n• Absentee ballot applications must be received in person 5 days before Election Day or by mail 7 days before Election Day. \n• Voted absentee ballots should be received by noon on Election Day if delivered by mail or if delivered by medical emergency designee or received by close of business on the day before the election if hand delivered. \n• Voters are required to include a copy of valid photo ID with their application for an absentee ballot. A voter can use any of the following forms of voter ID: valid Driver's License (not expired or has been expired less than 60 days); valid Non-driver ID (not expired or has been expired less than 60 days); valid Alabama Photo Voter ID; valid State Issued ID, valid Federal Issued ID, valid US Passport; valid Employee ID from Federal Government, State of Alabama, County Government, Municipality, Board, Authority, or other entity of this state; valid student or employee ID from a college or university in the State of Alabama (including postgraduate technical or professional schools); valid Military ID; valid Tribal ID.",
@@ -26,10 +26,10 @@ class AbsenteeVotingViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        pickerView.delegate = self
-        pickerView.dataSource = self
-
-        absenteeStateLabel.inputView = pickerView
+//        pickerView.delegate = self
+//        pickerView.dataSource = self
+//
+//        absenteeStateLabel.inputView = pickerView
 
 
     }
@@ -81,25 +81,25 @@ class AbsenteeVotingViewController: UIViewController {
 }
 
 
-
-extension AbsenteeVotingViewController: UIPickerViewDelegate, UIPickerViewDataSource {
-    
-    func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        return 1
-    }
-
-    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return states.count
-    }
-
-    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return states[row]
-    }
-    
-    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        absenteeStateLabel.text = states[row]
-        absenteeStateLabel.resignFirstResponder()
-    }
-
-}
-
+//
+//extension AbsenteeVotingViewController: UIPickerViewDelegate, UIPickerViewDataSource {
+//
+//    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+//        return 1
+//    }
+//
+//    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+//        return states.count
+//    }
+//
+//    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+//        return states[row]
+//    }
+//
+//    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+//        absenteeStateLabel.text = states[row]
+//        absenteeStateLabel.resignFirstResponder()
+//    }
+//
+//}
+//

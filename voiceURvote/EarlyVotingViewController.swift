@@ -15,7 +15,7 @@ class EarlyVotingViewController: UIViewController {
     
     @IBOutlet weak var earlyVotingLabel: UILabel!
     
-    var pickerView = UIPickerView()
+//    var pickerView = UIPickerView()
 
     let earlyVoting = [
         "Alabama does not have early voting",
@@ -29,10 +29,10 @@ class EarlyVotingViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        pickerView.delegate = self
-        pickerView.dataSource = self
-
-        earlyStateLabel.inputView = pickerView
+//        pickerView.delegate = self
+//        pickerView.dataSource = self
+//
+//        earlyStateLabel.inputView = pickerView
         
     }
     
@@ -82,27 +82,27 @@ class EarlyVotingViewController: UIViewController {
 
 
 
-
-extension EarlyVotingViewController: UIPickerViewDelegate, UIPickerViewDataSource {
-    
-    func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        return 1
-    }
-
-    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return states.count
-    }
-
-    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return states[row]
-    }
-    
-    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        earlyStateLabel.text = states[row]
-        earlyStateLabel.resignFirstResponder()
-    }
-
-}
+//
+//extension EarlyVotingViewController: UIPickerViewDelegate, UIPickerViewDataSource {
+//
+//    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+//        return 1
+//    }
+//
+//    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+//        return states.count
+//    }
+//
+//    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+//        return states[row]
+//    }
+//
+//    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+//        earlyStateLabel.text = states[row]
+//        earlyStateLabel.resignFirstResponder()
+//    }
+//
+//}
 
 
 

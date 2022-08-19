@@ -13,7 +13,7 @@ class InPersonVotingViewController: UIViewController {
     
     @IBOutlet weak var inPersonVotingLabel: UILabel!
     
-    var pickerView = UIPickerView()
+//    var pickerView = UIPickerView()
     
     let inPersonVotingProcedures = [
         "• Must be registered 15 days prior to Election Day. \n• Must show photo identification at the polls to vote. \n• Accepted forms of identification: Valid Driver's License (not expired or has been expired less than 60 days); Alabama Law Enforcement Agency Digital Driver's License; Valid Non-driver ID (not expired or has been expired less than 60 days); Alabama Law Enforcement Agency Digital Non-driver ID; Valid Alabama Photo Voter ID; Valid State Issued ID (Alabama or any other state), such as: a Valid AL Department of Corrections Release- Temporary ID (Photo Required), a Valid AL Movement/Booking Sheet from Prison/Jail System (Photo Required), or a Valid Pistol Permit (Photo Required); Valid Federal Issued ID; Valid US Passport; Valid Employee ID from Federal Government, State of Alabama, County Government, Municipality, Board, Authority, or other entity of Alabama; Valid student or employee ID from a college or university in the State of Alabama (including postgraduate technical or professional schools); Valid Military ID; Valid Tribal ID.",
@@ -28,10 +28,10 @@ class InPersonVotingViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        pickerView.delegate = self
-        pickerView.dataSource = self
-
-        yourStateIPLabel.inputView = pickerView
+//        pickerView.delegate = self
+//        pickerView.dataSource = self
+//
+//        yourStateIPLabel.inputView = pickerView
 
     }
     
@@ -81,26 +81,26 @@ class InPersonVotingViewController: UIViewController {
     
 
 }
-
-
-extension InPersonVotingViewController: UIPickerViewDelegate, UIPickerViewDataSource {
-    
-    func numberOfComponents(in pickerView: UIPickerView) -> Int {
-        return 1
-    }
-
-    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return states.count
-    }
-
-    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return states[row]
-    }
-    
-    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        yourStateIPLabel.text = states[row]
-        yourStateIPLabel.resignFirstResponder()
-    }
-
-}
-
+//
+//
+//extension InPersonVotingViewController: UIPickerViewDelegate, UIPickerViewDataSource {
+//    
+//    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+//        return 1
+//    }
+//
+//    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+//        return states.count
+//    }
+//
+//    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+//        return states[row]
+//    }
+//    
+//    func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
+//        yourStateIPLabel.text = states[row]
+//        yourStateIPLabel.resignFirstResponder()
+//    }
+//
+//}
+//
